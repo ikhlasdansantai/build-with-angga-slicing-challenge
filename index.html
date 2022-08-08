@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build With Angga Challenge</title>
+    meta
+    <!-- *CSS Native -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- *Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- *Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="container-all">
+      <header>
+        <nav class="flex-row">
+          <div class="nav-menus flex-row nav-menus-desktop">
+            <a href="#" class="nav-menu">Home</a>
+            <a href="#" class="nav-menu">Category</a>
+            <a href="#" class="nav-menu">Services</a>
+            <a href="#" class="nav-menu">About Us</a>
+          </div>
+          <div class="logos flex-row">
+            <div class="logo-img">
+              <img src="assets/header-img/logo.png" alt="" class="img" />
+            </div>
+            <h1 class="logo-title">Resto</h1>
+          </div>
+          <div class="input-fields flex-row">
+            <div id="search" class="search-desktop flex-row">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="search" class="search-input" placeholder="Cari makanan favorit mu" />
+            </div>
+            <button type="submit" class="search-button">Log In</button>
+          </div>
+          <div class="hamburger-menu flex-row">
+            <input type="checkbox" class="nav-checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-links-mobile flex-row">
+            <div class="logos mobile-logos flex-row">
+              <div class="logo-img">
+                <img src="assets/header-img/logo.png" alt="" class="img" />
+              </div>
+              <h1 class="logo-title">Resto</h1>
+            </div>
+            <div id="search" class="search-mobile flex-row">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="search" class="search-input" placeholder="Cari makanan favorit mu" />
+            </div>
+            <li><a href="#" class="nav-link">Beranda</a></li>
+            <li><a href="#" class="nav-link">Galeri</a></li>
+            <li><a href="#" class="nav-link">Dokumen</a></li>
+            <li><a href="#" class="nav-link">Event</a></li>
+          </ul>
+        </nav>
+        <div class="header-content-groups swiper">
+          <div class="header-big-img-wrapper swiper-wrapper">
+            <div class="header-img-lg swiper-slide">
+              <img src="assets/header-img/big-img-1.png" alt="" class="img" />
+            </div>
+            <div class="header-img-lg swiper-slide">
+              <img src="assets/header-img/big-img-2.png" alt="" class="img" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+          <div class="restaurant-cards flex-row">
+            <div class="restaurant-card flex-row">
+              <div class="restaurant-card-star-review flex-row">
+                <i class="fa-solid fa-star yellow-clr"></i>
+                <i class="fa-solid fa-star yellow-clr"></i>
+                <i class="fa-solid fa-star yellow-clr"></i>
+                <i class="fa-solid fa-star yellow-clr"></i>
+                <i class="fa-solid fa-star yellow-clr"></i>
+                <p class="restaurant-rating yellow-clr">5.0</p>
+                <p class="user-total-review grey-clr">(5.2K+)</p>
+              </div>
+              <div class="restaurant-card-titles flex-row">
+                <h4 class="restaurant-title">Padang Restaurant</h4>
+                <h5 class="price grey-clr">IDR 49.999 - IDR 560.000</h5>
+                <div class="restaurant-location flex-row">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="location paragraph-text grey-clr">Padang, Indonesia</p>
+                </div>
+              </div>
+              <div class="restaurant-card-buttons">
+                <button type="submit" class="btn restaurant-button flex-row">
+                  <p>Make Reservation</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </button>
+              </div>
+              <div class="extra-prices flex-row">
+                <p class="i-icon">i</p>
+                <p class="paragraph-text">Tidak ada biaya tambahan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <!--
+             =================== 
+            *Choose Us 
+             =================== 
+                                -->
+        <section id="choose-us">
+          <div class="why-choose-us-titles">
+            <h5 class="title-sm purple-clr">Keuntungan spesial untuk kamu</h5>
+            <h4 class="title-md">Kenapa Harus Pilih Kami?</h4>
+          </div>
+          <div class="why-choose-us-cards flex-row">
+            <div class="why-choose-us-card flex-row">
+              <div class="why-choose-us-card-icon">
+                <img src="assets/card-icon/discounts.png" alt="" class="img" />
+              </div>
+              <div class="why-choose-us-card-titles">
+                <h5 class="title-sm choose-us-title">Diskon Ekstra</h5>
+                <p class="paragraph-text choose-us-caption">Ambil diskon spesial mu dengan menggunakan reservasi kami</p>
+              </div>
+              <button type="submit" class="choose-us-button button-active btn">Lihat Selengkapnya</button>
+            </div>
+
+            <div class="why-choose-us-card flex-row">
+              <div class="why-choose-us-card-icon">
+                <img src="assets/card-icon/discounts.png" alt="" class="img" />
+              </div>
+              <div class="why-choose-us-card-titles">
+                <h5 class="title-sm choose-us-title">Datang dan Makan</h5>
+                <p class="paragraph-text choose-us-caption">Ambil diskon spesial mu dengan menggunakan reservasi kami</p>
+              </div>
+              <button type="submit" class="choose-us-button btn">Lihat Selengkapnya</button>
+            </div>
+
+            <div class="why-choose-us-card flex-row">
+              <div class="why-choose-us-card-icon">
+                <img src="assets/card-icon/discounts.png" alt="" class="img" />
+              </div>
+              <div class="why-choose-us-card-titles">
+                <h5 class="title-sm choose-us-title">Tidak Ada Biaya Ekstra</h5>
+                <p class="paragraph-text choose-us-caption">Ambil diskon spesial mu dengan menggunakan reservasi kami</p>
+              </div>
+              <button type="submit" class="choose-us-button btn">Lihat Selengkapnya</button>
+            </div>
+
+            <div class="why-choose-us-card flex-row">
+              <div class="why-choose-us-card-icon">
+                <img src="assets/card-icon/discounts.png" alt="" class="img" />
+              </div>
+              <div class="why-choose-us-card-titles">
+                <h5 class="title-sm choose-us-title">Kebersihannya Terjamin</h5>
+                <p class="paragraph-text choose-us-caption">Ambil diskon spesial mu dengan menggunakan reservasi kami</p>
+              </div>
+              <button type="submit" class="choose-us-button btn">Lihat Selengkapnya</button>
+            </div>
+          </div>
+        </section>
+
+        <!--
+             =================== 
+            *Featured Restaurant 
+             =================== 
+                                -->
+        <section id="featured-restaurant" class="flex-row">
+          <div class="featured-restaurant-titles flex-row">
+            <h5 class="title-sm purple-clr">TOP 3 restoran unggulan</h5>
+            <h4 class="title-md">Restoran Paling Populer</h4>
+            <p class="paragraph-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, totam?</p>
+            <button type="submit" class="btn flex-row">
+              <p>Lihat Lebih Banyak Restoran</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+          <div class="featured-restaurant-img-wrapper flex-row">
+            <div class="featured-restaurant-titles-img panel panel-active">
+              <div class="featured-card flex-row">
+                <div class="featured-card-icons flex-row">
+                  <i class="fa-solid fa-star yellow-clr"></i>
+                  <p class="restaurant-rating yellow-clr">5.0</p>
+                  <p class="user-total-review grey-clr">(7.6K+)</p>
+                </div>
+                <div class="featured-card-titles flex-row">
+                  <h4 class="sub-title-card">Bind Balorant</h4>
+                  <div class="featured-card-locations flex-row">
+                    <i class="fa-solid fa-location-dot grey-clr"></i>
+                    <p class="featured-card-location grey-clr">Jakarta, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-restaurant-titles-img panel"></div>
+            <div class="featured-restaurant-titles-img panel"></div>
+          </div>
+        </section>
+
+        <section id="near-restaurant">
+          <div class="near-restaurant-titles-location-wrappper flex-row">
+            <div class="near-restaurant-titles">
+              <h5 class="title-sm purple-clr">Restoran berdasarkan kota</h5>
+              <h2 class="title-md">Restoran Di dekatmu</h2>
+            </div>
+            <div class="near-restaurant-location flex-row">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="location">Jakarta, Indonesia</p>
+            </div>
+          </div>
+          <div class="near-restaurant-cards flex-row">
+            <div class="near-restaurant-img-wrapper">
+              <div class="near-restaurant-img">
+                <img src="assets/section-3/img-1.png" alt="" class="img" />
+                <div class="near-restaurant-card flex-row">
+                  <div class="featured-card-icons flex-row">
+                    <i class="fa-solid fa-star yellow-clr"></i>
+                    <p class="restaurant-rating yellow-clr">5.0</p>
+                    <p class="user-total-review grey-clr">(7.6K+)</p>
+                  </div>
+                  <div class="featured-card-titles flex-row">
+                    <h4 class="sub-title-card">Batavia Balorant</h4>
+                    <div class="featured-card-locations flex-row">
+                      <p class="price grey-clr">IDR 29.000 - IDR 259.999</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="near-restaurant-img-wrapper">
+              <div class="near-restaurant-img">
+                <img src="assets/section-3/img-2.png" alt="" class="img" />
+                <div class="near-restaurant-card flex-row">
+                  <div class="featured-card-icons flex-row">
+                    <i class="fa-solid fa-star yellow-clr"></i>
+                    <p class="restaurant-rating yellow-clr">5.0</p>
+                    <p class="user-total-review grey-clr">(3.6K+)</p>
+                  </div>
+                  <div class="featured-card-titles flex-row">
+                    <h4 class="sub-title-card">Split Ascent Restaurant</h4>
+                    <div class="featured-card-locations flex-row">
+                      <p class="price grey-clr">IDR 49.000 - IDR 560.000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="near-restaurant-img-wrapper">
+              <div class="near-restaurant-img">
+                <img src="assets/section-3/img-3.png" alt="" class="img" />
+                <div class="near-restaurant-card flex-row">
+                  <div class="featured-card-icons flex-row">
+                    <i class="fa-solid fa-star yellow-clr"></i>
+                    <p class="restaurant-rating yellow-clr">5.0</p>
+                    <p class="user-total-review grey-clr">(11K+)</p>
+                  </div>
+                  <div class="featured-card-titles flex-row">
+                    <h4 class="sub-title-card">Daza Fracture Restaurant</h4>
+                    <div class="featured-card-locations flex-row">
+                      <p class="price grey-clr">IDR 29.999 - IDR 560.000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center-btn flex-row">
+            <button type="submit" class="btn near-restaurant-btn flex-row">
+              <p>Lihat Lebih Banyak Restoran</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </section>
+
+        <section id="our-chef" class="flex-row">
+          <div class="our-chef-img-wrapper">
+            <div class="our-chef-img">
+              <img src="assets/section-4/img-1.png" alt="" class="img" />
+            </div>
+            <div class="our-chef-img-card-r flex-row">
+              <div class="our-chef-card-img-r">
+                <img src="assets/card-icon/Shield Done.png" alt="" class="img" />
+              </div>
+              <div class="our-chef-card-titles-r">
+                <p class="sub-title-card">12 Tahun</p>
+                <p class="paragraph-text grey-clr">Pengalaman</p>
+              </div>
+            </div>
+            <div class="our-chef-card-l flex-row">
+              <div class="our-chef-card-img-l">
+                <img src="assets/section-5/img-1.png" alt="" class="img" />
+              </div>
+              <div class="our-chef-card-titles-button-l flex-row">
+                <div class="our-chef-card-titles">
+                  <p class="paragraph-text grey-clr">Chef di restoran</p>
+                  <p class="chef-name sub-title-card">Pearl Dolphin</p>
+                </div>
+                <div class="our-chef-card-button">
+                  <a href="#" class="yellow-clr chef-button">Lihat Selengkapnya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="our-chef-titles">
+            <h4 class="title-sm purple-clr">Top 4 Juru masak ahli terbaik</h4>
+            <h2 class="title-lg">Juru Masak Ahli di Fuddy</h2>
+
+            <div class="our-chef-cards">
+              <div class="our-chef-card card-location-active">
+                <div class="our-chef-card-titles flex-row">
+                  <p class="paragraph-text">PIZZA</p>
+                  <h5 class="sub-title-card">Phoenix Satcheup</h5>
+                  <div class="featured-card-locations flex-row">
+                    <i class="fa-solid fa-location-dot grey-clr"></i>
+                    <p class="featured-card-location grey-clr">Jakarta, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="our-chef-cards">
+              <div class="our-chef-card card-location-active">
+                <div class="our-chef-card-titles flex-row">
+                  <p class="paragraph-text">vegan</p>
+                  <h5 class="sub-title-card">Chamber Botfrag</h5>
+                  <div class="featured-card-locations flex-row">
+                    <i class="fa-solid fa-location-dot grey-clr"></i>
+                    <p class="featured-card-location grey-clr">Jakarta, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="our-chef-cards">
+              <div class="our-chef-card card-location-active">
+                <div class="our-chef-card-titles flex-row">
+                  <p class="paragraph-text">roast chicken</p>
+                  <h5 class="sub-title-card">Asep Vandal</h5>
+                  <div class="featured-card-locations flex-row">
+                    <i class="fa-solid fa-location-dot grey-clr"></i>
+                    <p class="featured-card-location grey-clr">Jakarta, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="our-chef-cards">
+              <div class="our-chef-card card-location-active">
+                <div class="our-chef-card-titles flex-row">
+                  <p class="paragraph-text">beef steak</p>
+                  <h5 class="sub-title-card">I Made Invoker</h5>
+                  <div class="featured-card-locations flex-row">
+                    <i class="fa-solid fa-location-dot grey-clr"></i>
+                    <p class="featured-card-location grey-clr">Jakarta, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn our-chef-btn flex-row">
+              <p>Lihat Lebih Banyak Restoran</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+    <!-- *Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- *SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/sweetAlert.js"></script>
+    <!-- *JS Native -->
+    <script src="js/script.js" defer></script>
+    <!-- *Vue JS -->
+    <script src="js/vue.js"></script>
+    <!-- *React -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  </body>
+</html>
